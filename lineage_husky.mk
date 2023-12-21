@@ -29,4 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/husky/husky:14/UQ1A.240105.004/11206848:user/release-keys
 
-$(call inherit-product, vendor/google/husky/husky-vendor.mk)
+#$(call inherit-product, vendor/google/husky/husky-vendor.mk)
