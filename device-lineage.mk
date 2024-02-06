@@ -30,6 +30,9 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Face Unlock
+include vendor/google/faceunlock/device.mk
+
 # Build necessary packages for vendor
 
 # Audio
