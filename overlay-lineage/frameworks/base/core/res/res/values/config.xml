@@ -19,4 +19,8 @@
 
     <!-- IWLAN-->
     <string name="config_qualified_networks_service_package">com.android.qns</string>
+
+    <!-- Delay in ms before invoking single tap gesture
+         Should be set to dt2w max time / 2 when needed -->
+    <integer name="config_singleTapDelay">250</integer>
 </resources>
