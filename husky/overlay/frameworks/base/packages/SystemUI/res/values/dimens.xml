@@ -37,4 +37,8 @@
     <dimen name="lock_icon_padding">57px</dimen>
 
     <dimen name="udfps_burn_in_offset_y">19px</dimen>
+
+    <!-- UDFPS animations -->
+    <dimen name="udfps_animation_size">230dp</dimen>
+    <dimen name="udfps_animation_offset">-18dp</dimen>
 </resources>
