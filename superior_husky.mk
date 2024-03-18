@@ -14,6 +14,9 @@ $(call inherit-product, device/google/zuma/lineage_common.mk)
 
 include device/google/shusky/husky/device-lineage.mk
 
+# pixelbits
+$(call inherit-product, vendor/google/pixelbits/pixelbits.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
