@@ -19,4 +19,9 @@
 
     <!-- IWLAN-->
     <string name="config_qualified_networks_service_package">com.android.qns</string>
+
+    <!-- Doze features -->
+    <bool name="config_dozePulseProximity">true</bool>
+    <bool name="config_deviceHaveWakeUpProximity">true</bool>
+
 </resources>
