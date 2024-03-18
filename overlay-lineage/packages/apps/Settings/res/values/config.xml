@@ -17,4 +17,8 @@
 <resources>
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Maintainer Summary -->
+    <string name="SpOS_maintainer_summary" translatable="false">Albinoman887</string>
+    <string name="SpOS_maintainer_url" translatable="false">https://t.me/albinoman887</string>
 </resources>

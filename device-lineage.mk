@@ -40,15 +40,14 @@ include device/google/gs-common/wireless_charger/wireless_charger.mk
 WITH_GMS := true
 WITH_GAPPS := true
 BUILD_GMS_OVERLAYS_AND_PROPS := true
-TARGET_INCLUDE_PIXEL_LAUNCHER := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true
 
-# Sigma build flags
-SIGMA_BUILD_TYPE := OFFICIAL
-SIGMA_MAINTAINER := Albinoman887
-TARGET_HAS_UDFPS := true
-TARGET_ENABLE_BLUR := true
+# Superior flags
+TARGET_SUPPORTS_BLUR := true
+SUPERIOR_UDFPS_ANIMATIONS := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
 
 # Build necessary packages for vendor
 
