@@ -49,6 +49,8 @@ SIGMA_BUILD_TYPE := OFFICIAL
 SIGMA_MAINTAINER := Albinoman887
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
+TARGET_IS_PIXEL := true
+TARGET_SUPPORTS_CLEAR_CALLING := true
 
 # Build necessary packages for vendor
 
