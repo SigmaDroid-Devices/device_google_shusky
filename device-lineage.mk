@@ -49,6 +49,7 @@ TARGET_SUPPORTS_BLUR := true
 SUPERIOR_UDFPS_ANIMATIONS := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
+TARGET_SUPPORTS_CLEAR_CALLING := true
 
 # Build necessary packages for vendor
 
