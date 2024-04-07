@@ -27,9 +27,6 @@ include device/google/gs-common/wireless_charger/wireless_charger.mk
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
-# AudioFX
-TARGET_EXCLUDES_AUDIOFX := true
-
 # Face Unlock
 include vendor/google/faceunlock/device.mk
 
