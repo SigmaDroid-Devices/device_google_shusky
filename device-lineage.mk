@@ -24,9 +24,6 @@ TARGET_PREBUILT_KERNEL := device/google/shusky-kernel/Image.lz4
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
-# ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Face Unlock
 include vendor/google/faceunlock/device.mk
 
