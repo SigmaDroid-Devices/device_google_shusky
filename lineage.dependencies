@@ -1,7 +1,8 @@
 [
   {
-    "repository": "android_device_google_zuma",
-    "target_path": "device/google/zuma"
+    "repository": "device_google_zuma",
+    "target_path": "device/google/zuma",
+    "remote": "sigma-devices"
   },
   {
     "repository": "device/google/shusky-kernel",
